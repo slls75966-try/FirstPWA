@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon PWA App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Mon application PWA est en ligne !</h1>
+        <p>Si vous voyez ce message en bleu avec un fond gris clair, c'est que le HTML et le CSS fonctionnent parfaitement sur GitHub Pages.</p>
+        <button onclick="saluer()">Cliquez-ici</button>
+        <p id="message"></p>
+    </div>
+
+    <script>
+        function saluer() {
+            document.getElementById('message').innerText = "Bravo ! Votre déploiement est réussi. 🎉";
+        }
+    </script>
+</body>
+</html>
